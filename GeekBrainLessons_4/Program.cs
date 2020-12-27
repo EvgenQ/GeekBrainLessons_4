@@ -207,9 +207,9 @@ namespace GeekBrainLessons_4
 			}// Задание №3
 
 			{
-				Console.WriteLine("Введите число");
+				Console.WriteLine("Введите порядковый  номер числа Фибаначчи");
 				int fib = int.Parse(Console.ReadLine());
-				Console.WriteLine(Fibanachi(fib));
+				Console.WriteLine($"Число Фибаначчи под №{fib} = {Fibanachi(fib)}");
 				Console.ReadLine();
 			}// Задание №4
 
